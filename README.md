@@ -1,16 +1,8 @@
 # sport_events_app
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Notes:
+- The project is designed using the simplified vertical architecture approach.
+- Project uses flutter_riverpod as a minimalistic and universal solution for both DI and state management, in order to demonstrate base scalability and structuring possibilities.
+- To comply the prototype, 'timeEnding' field was added both to data class and mock dataset.
+- As long as the event model implies network img urls usage, the real urls from the internet are mocked and rendered.
+- A small amount of logic/nav corrections was made due to minor logical inconsistencies between the task description and design. All of them are marked as comments in code.
